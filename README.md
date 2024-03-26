@@ -1,6 +1,6 @@
-In this code, we explored different methods for weight initialization in a neural network. Here's a summary of what we did:
+In the **initialization** code, I explored different methods for weight initialization in a neural network. Here's a summary of what I did:
 
-1. **Zero Initialization**: We initialized all parameters (weights and biases) to zero. However, this approach failed to break symmetry, resulting in poor performance.
+1. **Zero Initialization**:initialized all parameters (weights and biases) to zero. However, this approach failed to break symmetry, resulting in poor performance.
 
 2. **Random Initialization**: We initialized the weights to large random values (scaled by 10) and biases to zeros. While this approach showed better performance than zero initialization, it had some drawbacks such as slow convergence and the risk of vanishing/exploding gradients.
 
